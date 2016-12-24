@@ -1,0 +1,142 @@
+@charset "utf-8";
+/* CSS Document */
+
+video#bgVideo {
+  position: absolute; // Play the video in full screen mode
+
+  height:60%;
+  width:70%;
+  overflow:hidden;
+  
+  top: 0px;
+  left: 0px;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -100; // Put the video behind all other elements
+}
+ 
+@media only screen and (max-width: 768px) {
+  video {
+    display:none;
+  }
+  body{
+    background-image:url("../css/image.png") left:10px;
+	
+  }
+}
+
+.topdiv {
+    position: fixed;
+	background:url(../sao.jpg); 
+	
+    top: 0px;
+	left:-5px;
+    width:105%;
+    height: 80px;
+    overflow: hidden !important;
+        overflow-x: hidden;
+        overflow-y: hidden;
+   
+    
+    /*background: none repeat scroll 0% 0% rgba(125,125,125,1);*/
+    z-index: 100;
+    
+ }
+ #logopic{
+	width:110px;
+	height:80px;
+	
+	position: fixed;
+	margin-left: -10px;
+}
+#sitetitle{
+	font-size: 32px;
+	top:0px;
+		margin-top: -20px;
+	text-align: center;
+}
+#sitetitle p{
+	opacity:1;
+	color:white;
+}
+#sitetitle p a{
+	text-decoration: none;
+	color:white;
+}
+#menubar {
+	position:relative;
+	float:right;
+	display:inline;
+	padding-left: 5px;
+	left:2px;
+	width:105%;
+	
+	margin-top:10px;
+	list-style: none;
+	left:60px;
+}
+
+.dropdown ul li{
+	display: none;
+	margin-top:15px;
+	margin-bottom: 5px;
+}
+
+.dropdown ul:hover li{
+	display: block;
+}
+.login{
+	position: fixed;
+	top:25px;
+	z-index:200;
+	left:90%;
+	
+	border: transparent;
+	border-spacing: 2px;
+
+}
+.login2{
+	position: fixed;
+	top:25px;
+	z-index:200;
+	left:84%;
+	
+	border: transparent;
+	border-spacing: 2px;
+
+}
+.cart{
+	position: fixed;
+	top:25px;
+	z-index:200;
+	left:85%;
+	
+	border: transparent;
+	border-spacing: 2px;
+}
+.li1{
+	background-color: green;
+	float:left;
+	
+	display:inline;
+	padding-right: 40px;
+	padding-left: 40px;
+	z-index:20;
+
+}
+.li1 a{
+	color:white;
+}
+
+#container{
+	position:fixed;
+	width:105%;
+	top:13px;
+	
+	margin-top:67px;
+	margin-left: -8px;
+    border: 3px solid green;
+    padding:0px 200px 0px 175px;
+    z-index:20;
+    background-color: green;
+}

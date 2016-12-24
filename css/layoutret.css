@@ -1,0 +1,94 @@
+@charset "utf-8";
+/* CSS Document */
+ 
+
+
+.topdiv {
+    position: fixed;
+	background:url(darkbgtext.jpg); 
+	
+    top: 0px;
+	left:-5px;
+    width:105%;
+    height: 80px;
+    overflow: hidden !important;
+        overflow-x: hidden;
+        overflow-y: hidden;
+   
+    
+    /*background: none repeat scroll 0% 0% rgba(125,125,125,1);*/
+    z-index: 100;
+    
+ }
+ #logopic{
+	width:110px;
+	height:80px;
+	
+	position: fixed;
+	margin-left: -10px;
+}
+#sitetitle{
+	font-size: 32px;
+	top:0px;
+		margin-top: -20px;
+	text-align: center;
+}
+#sitetitle p{
+	opacity:1;
+	color:white;
+}
+#menubar {
+	position:absolute;
+	float:right;
+	display:inline;
+	padding-left: 5px;
+	left:2px;
+	width:105%;
+	
+	margin-top:100px;
+
+	list-style: none;
+	left:60px;
+}
+.login{
+	position: fixed;
+	top:25px;
+	z-index:200;
+	left:93%;
+	
+	border: transparent;
+	border-spacing: 2px;
+
+}
+.cart{
+	position: fixed;
+	top:25px;
+	z-index:200;
+	left:85%;
+	
+	border: transparent;
+	border-spacing: 2px;
+}
+.li1{
+	background-color: orange;
+	float:left;
+	
+	display:inline;
+	padding-right: 40px;
+	padding-left: 40px;
+	z-index:20;
+
+}
+
+#container{
+	position:fixed;
+	width:100%;
+	top:100px;left:0px;
+	height: 100px;
+	margin-top:100px;
+	margin-left: 0px;
+    border: 3px solid blue;
+    padding:0px 200px 0px 175px;
+    z-index:20;
+    background-color: orange;
+}
